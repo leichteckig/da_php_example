@@ -21,7 +21,7 @@ describe('Add product to cart', () => {
     });
 
     // Actual test
-    it('should add product to cart - in ok', () => {
+    it('should add product to cart - in better', () => {
         // Find and click product
         cy.contains('.product-name', 'Aerodynamic Bronze Gee Spotty').click();
 
